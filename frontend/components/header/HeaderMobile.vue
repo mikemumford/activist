@@ -32,13 +32,4 @@ const isSearchExpanded = ref(false);
 const toggleSearchExpanded = () => {
   isSearchExpanded.value = !isSearchExpanded.value;
 };
-
-const headerOpacity: Ref<number> = ref(1);
-const prevScrollY: Ref<number> = ref(0);
 </script>
-
-<style>
-.header {
-  -webkit-transform: translate3d(0, 0, 0);
-}
-</style>
